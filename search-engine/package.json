@@ -1,0 +1,17 @@
+{
+  "name": "search-engine",
+  "version": "1.0.0",
+  "description": "Blazingly fast simple and powerful Static site search engine created by No Results Found Team. ",
+  "main": "index.js",
+  "author": "Nawaf Kl, Az Qannam, Az Mohammadi",
+  "license": "MIT",
+  "scripts": {
+    "start":"node ./indexing.js"
+  },
+  "dependencies": {
+    "front-matter-markdown": "^0.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

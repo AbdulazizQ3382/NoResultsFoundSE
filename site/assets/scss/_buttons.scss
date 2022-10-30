@@ -1,0 +1,45 @@
+// Buttons
+//
+// Custom buttons for the docs.
+
+// scss-docs-start btn-css-vars-example
+.btn-bd-primary {
+  --ndb-btn-font-weight: 600;
+  --ndb-btn-color: var(--ndb-white);
+  --ndb-btn-bg: var(--bd-violet);
+  --ndb-btn-border-color: var(--bd-violet);
+  --ndb-btn-border-radius: .5rem;
+  --ndb-btn-hover-color: var(--ndb-white);
+  --ndb-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --ndb-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --ndb-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --ndb-btn-active-color: var(--ndb-btn-hover-color);
+  --ndb-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --ndb-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+// scss-docs-end btn-css-vars-example
+
+.btn-bd-accent {
+  --ndb-btn-font-weight: 600;
+  --ndb-btn-color: var(--bd-accent);
+  --ndb-btn-border-color: var(--bd-accent);
+  --ndb-btn-hover-color: var(--bd-dark);
+  --ndb-btn-hover-bg: var(--bd-accent);
+  --ndb-btn-hover-border-color: var(--bd-accent);
+  --ndb-btn-focus-shadow-rgb: var(--bd-accent-rgb);
+  --ndb-btn-active-color: var(--ndb-btn-hover-color);
+  --ndb-btn-active-bg: var(--ndb-btn-hover-bg);
+  --ndb-btn-active-border-color: var(--ndb-btn-hover-border-color);
+}
+
+.btn-bd-light {
+  --ndb-btn-color: var(--ndb-gray-600);
+  --ndb-btn-border-color: var(--ndb-gray-400);
+  --ndb-btn-hover-color: var(--bd-violet);
+  --ndb-btn-hover-border-color: var(--bd-violet);
+  --ndb-btn-active-color: var(--bd-violet);
+  --ndb-btn-active-bg: var(--ndb-white);
+  --ndb-btn-active-border-color: var(--bd-violet);
+  --ndb-btn-focus-border-color: var(--bd-violet);
+  --ndb-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+}

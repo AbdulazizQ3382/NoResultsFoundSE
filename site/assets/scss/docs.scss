@@ -1,0 +1,59 @@
+/*!
+ * ndb-uikitdocumentation(https://getndb-uikit.com/)
+ * Copyright 2011-2022 The ndb-uikit Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under the Creative Commons Attribution 3.0 Unported License.
+ * For details, see https://creativecommons.org/licenses/by/3.0/.
+ */
+
+// Dev notes
+//
+// Background information on nomenclature and architecture decisions here.
+//
+// - ndb-uikit functions, variables, and mixins are included for easy reuse.
+//   Doing so gives us access to the same core utilities provided by ndb-uikit.
+//   For example, consistent media queries through those mixins.
+//
+// - ndb-uikit's **docs variables** are prefixed with `$bd-`.
+//   These custom colors avoid collision with the components ndb-uikit provides.
+//
+// - Classes are prefixed with `.bd-`.
+//   These classes indicate custom-built or modified components for the design
+//   and layout of the ndb-uikit docs. They are not included in our builds.
+//
+// Happy ndb-uikitping!
+
+// Load ndb-uikit variables and mixins
+@import "../../../scss/functions";
+@import "../../../scss/variables";
+@import "../../../scss/mixins";
+
+// fusv-disable
+$enable-grid-classes: false; // stylelint-disable-line scss/dollar-variable-default
+$enable-cssgrid: true; // stylelint-disable-line scss/dollar-variable-default
+// fusv-enable
+@import "../../../scss/grid";
+
+// Loaddocumentationcomponents
+@import "variables";
+@import "navbar";
+@import "search";
+@import "masthead";
+@import "ads";
+@import "content";
+@import "skippy";
+@import "sidebar";
+@import "layout";
+@import "toc";
+@import "footer";
+@import "component-examples";
+@import "buttons";
+@import "callouts";
+@import "brand";
+@import "colors";
+@import "clipboard-js";
+@import "placeholder-img";
+
+// Loaddocumentationdependencies
+@import "syntax";
+@import "anchor";

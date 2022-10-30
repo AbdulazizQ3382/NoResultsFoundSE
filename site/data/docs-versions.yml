@@ -1,0 +1,7 @@
+
+- group: v1.x
+  baseurl: "https://getndb-uikit.com/docs"
+  description: "Current major release. Last update was v1.0.0."
+  versions:
+    - v: "1.0"
+
