@@ -44,8 +44,9 @@ for (const file in files) {
 
   if (fileContent.length) {
     const stringify = fileContent.toString()
-    let frontMatter = parseMarkdown(stringify, null, 1)
+    let frontMatter = parseMarkdown(stringify, {content : true, headingsAsToc: true})
     frontMatter.id = files[file].name
+    frontMatter.Level2Contents = frontMatter.$compiled;
     matters.push(frontMatter)
   }
 
