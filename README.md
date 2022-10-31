@@ -1,12 +1,12 @@
 # NoResultsFoundSE
 a powerful static site search engine 
 
-#to install dependencies:
+### to install dependencies:
 npm install
 or
 yarn
 
-Our checklist:
+### Our checklist:
 - [ ] Indexing all contents
 
 - [ ] Tokenising 
