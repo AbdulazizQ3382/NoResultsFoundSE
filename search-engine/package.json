@@ -6,9 +6,11 @@
   "author": "Nawaf Kl, Az Qannam, Az Mohammadi",
   "license": "MIT",
   "scripts": {
-    "start":"node ./indexing.js"
+    "start": "node ./indexing.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "front-matter-markdown": "^0.4.5"
   },
   "devDependencies": {
